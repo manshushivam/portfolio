@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.section{
+    position: relative;
+    color: #ffffff;
+}
+
+.name {     
+    font-weight: bold; 
+    font-size: 100px;         /* Make the text bold */
+    color: #6dd5fa;             /* Set the text color (use any color you prefer) */
+  }
+  
+.bigCard{
+    background: linear-gradient(to right, #00D2FF, #3A7BD5);
+    height: 70vh;
+    margin: 10vh;
+    border-radius: 6px;
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the card */
+    display: flex; /* Use Flexbox for horizontal layout */
+    align-items: center; /* Vertically center the items */
+    justify-content: space-between; /* Space out content and profile picture */
+    padding: 5vh;
+    color: #ffff;
+}
+
+.technologies li{
+    padding: 5px;
+}
+
+
+.profilePic {
+    width: 400px; /* Width of the round frame */
+    height: 400px; /* Height of the round frame */
+    display: flex; /* Center the image inside the div */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    background-color: #DEAA79;
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden; /* Hide the overflow to make sure image fits the circular frame */
+    position:relative;
+}
+
+.profilePic img {
+    width: 100%; /* Make the image fit the container */
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the circle without distortion */
+    border-radius: 50%; /* Make the image itself circular */
+}
